@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Productos</string>
+    <string name="cancel_process">Se canceló el proceso</string>
+</resources>
