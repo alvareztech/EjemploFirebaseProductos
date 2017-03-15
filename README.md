@@ -34,3 +34,11 @@ Configuración
             Toast.makeText(getApplicationContext(), R.string.cancel_process, Toast.LENGTH_SHORT).show();
         }
     });
+
+## Paso 3
+
+    DatabaseReference productosRef = databaseRef.child("productos");
+    Producto p = new Producto();
+    p.setNombre("Un producto");
+    // ...
+    productosRef.push().setValue(p);
